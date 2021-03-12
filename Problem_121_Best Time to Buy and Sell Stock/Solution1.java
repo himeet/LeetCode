@@ -45,7 +45,7 @@ public class BestTimeToBuyAndSellStock{
    // 法一：动态规划法-空间未优化
    // 算法思想：注意"现金流"这一概念
    // 时间复杂度：O(n)，空间复杂度：O(n) 其中n为链表的长度
-   // 时间复杂度说明：遍历两次数组
+   // 时间复杂度说明：遍历1次数组
    // 空间复杂度说明：使用了dp数组
    // 参考资料1：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/121-mai-mai-gu-piao-de-zui-jia-shi-ji-by-leetcode-/(官方解，无用)
    // 参考资料2：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/bao-li-mei-ju-dong-tai-gui-hua-chai-fen-si-xiang-b/(liweiwei大佬，股票问题整理，动态规划法)
@@ -82,6 +82,6 @@ public class BestTimeToBuyAndSellStock{
            return dp[prices.length - 1][0];  // 返回的是最后一天结束时，不持股，手上的最大现金流
        }
    }
-   //leetcode submit region end(Prohibit modification and deletion)    
+   //leetcode submit region end(Prohibit modification and deletion)
 
 }

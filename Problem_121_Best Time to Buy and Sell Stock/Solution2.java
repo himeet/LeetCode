@@ -47,7 +47,7 @@ public class BestTimeToBuyAndSellStock{
     //         「空间优化只看状态转移方程」
     //         使用滚动数组来优化空间
     // 时间复杂度：O(n)，空间复杂度：O(1) 其中n为链表的长度
-    // 时间复杂度说明：遍历两次数组
+    // 时间复杂度说明：遍历1次数组
     // 空间复杂度说明：常量额外空间
     // 参考资料1：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/121-mai-mai-gu-piao-de-zui-jia-shi-ji-by-leetcode-/(官方解，无用)
     // 参考资料2：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/bao-li-mei-ju-dong-tai-gui-hua-chai-fen-si-xiang-b/(liweiwei大佬，股票问题整理，动态规划法)
